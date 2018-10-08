@@ -10,4 +10,6 @@ var data = fs.readFile("./test.txt", function(err, data) {
     console.log(err);
   }
   console.log(data.toString());
+  let arr = data.split(",");
+  let noOfTeams = arr.length / 12;
 });

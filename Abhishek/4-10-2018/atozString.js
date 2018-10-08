@@ -6,11 +6,11 @@ let alphArr = alphabets.split("");
 function alphabetsChecker(alph, strGiven) {
   let strGivenArr = strGiven.split("");
   for (let i = 0; i < alphArr.length; i++) {
-    if (strGivenArr.indexOf(alphArr[i]) > -1) {
-      //   console.log(value);
-    } else {
+    if (!(strGivenArr.indexOf(alphArr[i]) > -1)) {
       return false;
     }
+
+    return true;
   }
   //   alphArr.forEach((value, index) => {
   //     // console.log(value);
