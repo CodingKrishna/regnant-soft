@@ -14,7 +14,7 @@ for (let c=1,index = 0; index < arr.length; index++) {
 count.sort(function(a,b){
     return a.value-b.value;
 });
-HighestValue=count.pop()
+HighestValue=count.pop();
  return (HighestValue.name+" = "+HighestValue.value);
 }
 
