@@ -5,6 +5,7 @@ for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < element.length; j++) {
         if(element[j]*1==0){
             output= `Row ${i} and Column ${j}`;
+            break;
             }
     }
 }
