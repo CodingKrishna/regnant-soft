@@ -7,7 +7,7 @@ console.log(arr2.length);
 var i;
 for(var j=0; j < arr2.length; j++){
     var count=0;
-    for(i=0; i < arr2.length; i++){
+    for(i=0; i < arr.length; i++){
     if(arr2[j]==arr[i]){ 
         count++;
     }}
