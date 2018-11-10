@@ -1,0 +1,342 @@
+body {
+  margin: 0px;
+  color: white;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.section1 {
+  width: 100%;
+}
+.title {
+  width: 100%;
+  position: absolute;
+  opacity: 0.7;
+  background-color: #195487;
+  font-size: 20px;
+}
+.title .name {
+  margin: 5px;
+  float: left;
+}
+.title .name h1 {
+  margin: 0%;
+}
+.title label i {
+  padding-top: 5px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.title .search {
+  margin: 10px;
+  float: right;
+}
+.sec1img img {
+  width: 100%;
+  height: 600px;
+}
+.nav {
+  position: relative;
+  bottom: 55px;
+  width: 100%;
+}
+.nav div {
+  float: left;
+  background-color: #195487;
+  opacity: 0.7;
+  height: 50px;
+}
+.nav .excellence {
+  width: 30%;
+  text-align: center;
+  font-size: 40px;
+}
+.nav .excellence h4 {
+  margin: 0px;
+}
+.nav div ul li {
+  list-style: none;
+  text-decoration: underline;
+  float: left;
+  padding-left: 30px;
+  padding-right: 100px;
+}
+.nav .nav-bar {
+  width: 65%;
+}
+.nav .topics h2 {
+  margin: 0px;
+}
+.nav .topics {
+  width: 5%;
+  float: right;
+}
+.section2 {
+  width: 100%;
+  height: 10vw;
+  background-image: linear-gradient(90deg, #195589, #1e415f);
+  height: 550px;
+  color: #f9e5b0;
+}
+.section2 section {
+  font-size: 25px;
+  width: 50%;
+  float: left;
+  padding-left: 30px;
+}
+section .div1 {
+  padding: 0px 30px 30px 0px;
+}
+.section2 .image div {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+.section2 .image div div {
+  text-align: center;
+  width: 100%;
+}
+.section2 .image div img {
+  width: 85%;
+}
+.section2 aside {
+  clear: inherit;
+}
+.section2 aside .grad-cap-top img {
+  position: relative;
+}
+.section2 aside .grad-cap .div1 {
+  font-size: 120px;
+  float: left;
+  position: relative;
+  top: -45px;
+}
+.section2 aside .grad-cap div,
+.section2 aside .diploma-aside div {
+  font-size: 30px;
+}
+.section2 aside .diploma-main {
+  display: block;
+  position: relative;
+  right: 250px;
+  top: 50px;
+}
+.section2 aside .diploma {
+  float: left;
+}
+.section2 aside .diploma-aside {
+  font-size: 95px;
+}
+.section3 {
+  background-color: #c1b081;
+
+  color: black;
+  height: 650px;
+}
+.section3 .left {
+  float: left;
+  width: 45%;
+  padding-top: 20px;
+}
+.section3 .left h1,
+.section3 .left div {
+  padding: 20px;
+}
+.section3 .left div {
+  padding-right: 100px;
+}
+.section3 .right {
+  width: 55%;
+  float: left;
+  height: 650px;
+  background-image: linear-gradient(
+    to right,
+    #ab9967,
+    #d1bf8c,
+    #d1bf8c,
+    #d1bf8c,
+    #d1bf8c,
+    #d1bf8c,
+    #d1bf8c,
+    #d1bf8c
+  );
+}
+.section3 .right .blue {
+  color: blue;
+}
+.section3 .right .iframe {
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 80px;
+  height: 300px;
+  border: 2px solid;
+  text-align: center;
+}
+/* transform-enrollment */
+.transform-enrollment {
+  height: 200px;
+  background-image: linear-gradient(
+    to right,
+    #272727,
+    #6c675e,
+    #6c675e,
+    #272727
+  );
+  clear: inherit;
+}
+.transform-enrollment div {
+  text-align: center;
+  padding-top: 50px;
+  width: 100%;
+}
+.transform-enrollment span {
+  font-size: 50px;
+}
+.transform-enrollment h1 {
+  display: block;
+  text-align: center;
+}
+.transform-enrollment .UIC {
+  clear: both;
+  position: absolute;
+}
+.bg img {
+  width: 100%;
+}
+.section4 {
+  position: relative;
+}
+.section4-hover {
+  background-image: linear-gradient(90deg, #255b8b, #498dc8);
+  z-index: 9999;
+  width: 70%;
+  float: right;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  height: 400px;
+  font-size: 20px;
+}
+.section4-hover h1 {
+  text-align: center;
+}
+.section4-hover .content {
+  color: black;
+  font-size: 20px;
+  margin: 50px;
+}
+.section4-hover .content2 {
+  color: #f9e5b0;
+  margin: 50px;
+}
+.section4-hover .content2 .left div,
+.section4-hover .content2 .right div {
+  float: left;
+  width: 25%;
+}
+.section4-hover .content2 .left .label {
+  font-size: 95px;
+}
+.section4-hover .content2 div .secDiv {
+  position: relative;
+  bottom: -40px;
+}
+.section5 {
+  position: relative;
+}
+.section5 div {
+  background-image: linear-gradient(-90deg, #0e2636, #224e66);
+}
+.section5-1 {
+  width: 50%;
+  height: 500px;
+  color: white;
+  position: absolute;
+  top: 0px;
+}
+.section5-1 div {
+  padding: 100px;
+  padding-top: 30px;
+}
+.section5-1 h1 {
+  padding-left: 100px;
+}
+.section6 {
+  height: 395px;
+  position: relative;
+}
+.section6 img {
+  width: 100%;
+}
+.section6-1 {
+  border: 2px solid white;
+  height: 300px;
+  width: 71%;
+  background-color: #133f5e;
+  opacity: 0.4;
+  position: absolute;
+  top: 10%;
+  left: 14%;
+}
+.section6-1-1 {
+  color: white;
+  font-size: 35px;
+  font-style: italic;
+  padding: 51px;
+}
+.section6-1-2 {
+  width: 41%;
+  position: absolute;
+  bottom: 18px;
+  right: 32px;
+  color: white;
+  font-size: 19px;
+  text-align: end;
+}
+.section7 {
+  bottom: 84px;
+  height: 330px;
+  background-color: #0f3852;
+  background-image: linear-gradient(to right, #255b8b, #255b8b, #0f3852);
+}
+.section7-1 {
+  width: 33%;
+  float: left;
+  height: 310px;
+  color: white;
+  padding-top: 20px;
+}
+.section7-1 ul li {
+  list-style-type: none;
+  font-size: 18px;
+}
+.section7-2 {
+  width: 26%;
+  float: left;
+  height: 330px;
+  color: white;
+  padding-left: 104px;
+  font-size: 18px;
+}
+.section7-2 ul li {
+  list-style-type: none;
+}
+.section7-3 {
+  width: 30%;
+  float: left;
+  height: 318px;
+  color: white;
+  padding-top: 12px;
+  padding-left: 62px;
+}
+.section7-3 ul li {
+  list-style-type: none;
+}
+.fab {
+  font-size: 35px;
+  width: 10%;
+}
+.section8 {
+  height: 43px;
+  background-color: #0f3852;
+  padding-top: 15px;
+  padding-left: 28px;
+}
