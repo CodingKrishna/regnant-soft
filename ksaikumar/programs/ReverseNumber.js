@@ -1,6 +1,6 @@
-function f1(n){
+function reverseNumber(n){
     n=n+"";
     return n.split("").reverse().join("");
     
 }
-console.log(f1(12345));
+var rev= reverseNumber(12345));
